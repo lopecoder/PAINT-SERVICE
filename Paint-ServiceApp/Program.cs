@@ -1,16 +1,16 @@
-﻿using Paint_ServiceApp;
-using static Paint_ServiceApp.Clientes;
-using static Paint_ServiceApp.Proyecto;
+﻿//using Paint_ServiceApp;
+//using static Paint_ServiceApp.Clientes;
+//using static Paint_ServiceApp.Proyecto;
 
 
 //====================================================================================
 
-//Prueba de Clase Servicio
+////Prueba de Clase Servicio
 
-Console.WriteLine("Datos del Servicio");
-Console.WriteLine("=========================");
-Servicio Servicio1 = new Servicio(1, "Jose", "25/6/8","Brocha", 25000.63, 1);
-Console.WriteLine(Servicio1);
+//Console.WriteLine("Datos del Servicio");
+//Console.WriteLine("=========================");
+//Servicio Servicio1 = new Servicio(1, "Jose", "25/6/8","Brocha", 25000.63, 1);
+//Console.WriteLine(Servicio1);
 
 
 
