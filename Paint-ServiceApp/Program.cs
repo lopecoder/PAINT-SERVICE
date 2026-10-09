@@ -3,15 +3,27 @@ using static Paint_ServiceApp.Clientes;
 using static Paint_ServiceApp.Proyecto;
 
 
+//====================================================================================
+
+//Prueba de Clase Servicio
+
+Console.WriteLine("Datos del Servicio");
+Console.WriteLine("=========================");
+Servicio Servicio1 = new Servicio(1, "Jose", "25/6/8","Brocha", 25000.63, 1);
+Console.WriteLine(Servicio1);
+
+
+
 
 
 //====================================================================================
 
 //Prueba de Clase Pintor
-Console.WriteLine("Pintores");
-Console.WriteLine("==========================");
-var Pintor1 = new Pintor(1, "Jose perez", "Techos");
-Console.WriteLine(Pintor1);
+//Console.WriteLine("Pintores");
+//Console.WriteLine("==========================");
+//var Pintor1 = new Pintor(1, "Jose perez", "Techos");
+//Console.WriteLine(Pintor1);
+
 
 //====================================================================================
 //Prueba de Clase Proyectos
