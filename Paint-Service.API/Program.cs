@@ -26,3 +26,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+//https://localhost:7022/Swagger
