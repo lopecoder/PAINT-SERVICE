@@ -1,22 +1,34 @@
-﻿
+﻿using System;
 
-//==============================================================
+namespace Paint_Service.API.Models.Entities
+{
+    public class Pintor
+    {
+        public int ID { get; set; }
 
-//namespace Paint_Service.API.Models.Entities
-//public class Pintor //Clase Pintor
-//{
-//    private int _ID;
-//    private string _Nombre;
-//    private string _Especialidad;
-//    public Pintor(int ID, string Nombre, string Especialidad)//Constructor
-//    {
-//        _ID = ID;
-//        _Nombre = Nombre;
-//        _Especialidad = Especialidad;
-//    }
-//    public override string ToString()//Sobreescritura del metodo ToString para que sean visibles la info de la clase Pintor
-//    {
-//        return $"ID: {_ID}\nNombre: {_Nombre}\nEspecialidad: {_Especialidad}";
-//    }
-//================== Codigo de prueba de la entidad/Clase Pintor ===========================
+        public string Nombre { get; set; }
+
+        public string Especialidad { get; set; }
+
+        public bool Disponibilidad { get; set; }
+
+       
+        public Pintor(int id, string nombre, string especialidad, bool disponibilidad)
+        {
+            ID = id;
+            Nombre = nombre;
+            Especialidad = especialidad;
+            Disponibilidad = disponibilidad;
+        }
+
+        // Sobreescritura del método ToString()
+        public override string ToString()
+        {
+            return $"ID: {ID}\n" +
+                   $"Nombre: {Nombre}\n" +
+                   $"Especialidad: {Especialidad}\n" +
+                   $"Disponibilidad: {Disponibilidad}";
+        }
+    }
+}
 
