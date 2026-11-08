@@ -4,30 +4,34 @@ using System.Text;
 
 namespace Paint_Service.API.Models.Entities
 {
+
     public class Servicio
     {
-        private int _ID;
-        private string _TipoTrabajo;
-        private string _Fecha; //IMPLEMENTAR FORMA DE QUE LA FECHA SE ASIGNE AUTOMATICAMENTE
-        private string _Materiales;
-        private double _Costo;
-        private int _Proyecto_id; //IMPLEMENTAR COMO ASIGNAR LA INFORMACION DE ID DE LA CLASE PROYECTO A royecto_id
+        public int ID { get; set; }
+        public string TipoTrabajo { get; set; }
+        public string Fecha { get; set; }
+        public string Materiales { get; set; }
+        public double Costo { get; set; }
+        public int Proyecto_id { get; set; }
 
-        public Servicio(int ID, string TipoTrabajo, string Fecha, string Materiales, double Costo, int Proyecto_id)
+        public Servicio(int id, string tipoTrabajo, string fecha, string materiales, double costo, int proyecto_id)
         {
-            _ID = ID;
-            _TipoTrabajo = TipoTrabajo;
-            _Materiales = Materiales;
-            _Costo = Costo;
-            _Proyecto_id = Proyecto_id;
-
+            ID = id;
+            TipoTrabajo = tipoTrabajo;
+            Fecha = fecha;
+            Materiales = materiales;
+            Costo = costo;
+            Proyecto_id = proyecto_id;
         }
-
 
         public override string ToString()
         {
-            return $"ID: {_ID}\nTipo de trabajo: {_TipoTrabajo}\nMateriales: {_Materiales}\nCosto: {_Costo}\nProyecto_ID: {_Proyecto_id}";
+            return $"ID: {ID}\n" +
+                   $"Tipo de trabajo: {TipoTrabajo}\n" +
+                   $"Fecha: {Fecha}\n" +
+                   $"Materiales: {Materiales}\n" +
+                   $"Costo: {Costo}\n" +
+                   $"Proyecto_ID: {Proyecto_id}";
         }
-
     }
 }
