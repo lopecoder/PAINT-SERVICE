@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Paint_Service.API.Models
+namespace Paint_Service.API.Models.Entities
 {
     public class Proyecto
     {
