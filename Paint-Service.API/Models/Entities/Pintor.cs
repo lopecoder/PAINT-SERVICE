@@ -13,13 +13,13 @@ namespace Paint_Service.API.Models.Entities
         public bool Disponibilidad { get; set; }
 
        
-        public Pintor(int id, string nombre, string especialidad, bool disponibilidad)
-        {
-            ID = id;
-            Nombre = nombre;
-            Especialidad = especialidad;
-            Disponibilidad = disponibilidad;
-        }
+        //public Pintor(int id, string nombre, string especialidad, bool disponibilidad)
+        //{
+        //    ID = id;
+        //    Nombre = nombre;
+        //    Especialidad = especialidad;
+        //    Disponibilidad = disponibilidad;
+        //}
 
         // Sobreescritura del método ToString()
         public override string ToString()

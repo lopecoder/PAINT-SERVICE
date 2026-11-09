@@ -10,7 +10,7 @@ namespace Paint_Service.API.Context
         {
         }
 
-        public DbSet<Clientes> Clientes { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
 
         public DbSet<Proyecto> Proyectos { get; set; }
         public DbSet<Pintor> Pintores { get; set; }

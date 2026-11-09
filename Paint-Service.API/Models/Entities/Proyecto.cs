@@ -13,12 +13,16 @@ namespace Paint_Service.API.Models.Entities
         public string FechaFin { get; set; }
         public double Costo { get; set; }
 
-        // Constructor vacío requerido para ASP.NET y Swagger
+        public int ClienteID { get; set; }
+
+        public Cliente? Cliente { get; set; }
+
+        public ICollection<Servicio>? Servicios { get; set; }
+
+
         public Proyecto()
         {
         }
-
-        // Constructor con parámetros
         public Proyecto(int id, string nombreProyecto, string fechaInicio, string fechaFin, double costo)
         {
             ID = id;

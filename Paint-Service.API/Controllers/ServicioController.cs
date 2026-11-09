@@ -9,17 +9,17 @@ namespace Paint_Service.API.Controllers
     public class ServicioController : ControllerBase
     {
         private static readonly List<Servicio> _servicios = new List<Servicio>
-        {
-            new Servicio
-            (
-                1,
-                "Pintura Interior",
-                "06/10/2026",
-                "Pintura Blanca y Rodillo",
-                5000,
-                1
-            )
-        };
+{
+    new Servicio
+    {
+        ID = 1,
+        TipoTrabajo = "Pintura Interior",
+        Fecha = "06/10/2026",
+        Materiales = "Pintura Blanca",
+        Costo = 5000,
+        ProyectoID = 1
+    }
+};
 
         // GET: api/servicios
         [HttpGet]
@@ -76,7 +76,7 @@ namespace Paint_Service.API.Controllers
             existing.Fecha = servicio.Fecha;
             existing.Materiales = servicio.Materiales;
             existing.Costo = servicio.Costo;
-            existing.Proyecto_id = servicio.Proyecto_id;
+            existing.ProyectoID = servicio.ProyectoID;
 
             return NoContent();
         }
