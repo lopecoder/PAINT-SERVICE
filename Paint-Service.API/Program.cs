@@ -1,7 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using Paint_Service.API.Context;
-using Microsoft.EntityFrameworkCore;
-using Paint_Service.API.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
