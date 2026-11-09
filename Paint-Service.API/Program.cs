@@ -1,4 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using Paint_Service.API.Context;
+using Microsoft.EntityFrameworkCore;
+using Paint_Service.API.Context;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddDbContext<PaintServiceContext>(options =>options.UseSqlServer(
+builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 
