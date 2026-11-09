@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Paint-Service.API/Paint-Service.API.csproj" Id="93963a82-50e0-4ea0-a1f2-872878002b9c" />
+  <Project Path="Paint_Service.Domain/Paint_Service.Domain.csproj" Id="0cb05bcf-359b-4553-80ea-9b8fd59b3d40" />
 </Solution>
