@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
-using Paint_Service.API.Models;
+using Paint_Service.Domain.Entities;
 using System.Linq;
 
 

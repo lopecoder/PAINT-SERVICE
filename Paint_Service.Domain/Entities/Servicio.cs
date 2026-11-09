@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Paint_Service.API.Models.Entities
+namespace Paint_Service.Domain.Entities.Entities
 {
 
     public class Servicio

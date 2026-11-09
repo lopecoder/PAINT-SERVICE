@@ -23,4 +23,8 @@
 	  <ProjectReference Include="..\Paint_Service.Domain\Paint_Service.Domain.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Models\Entities\" />
+	</ItemGroup>
+
 </Project>
