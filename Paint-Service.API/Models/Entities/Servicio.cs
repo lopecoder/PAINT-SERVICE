@@ -12,17 +12,19 @@ namespace Paint_Service.API.Models.Entities
         public string Fecha { get; set; }
         public string Materiales { get; set; }
         public double Costo { get; set; }
-        public int Proyecto_id { get; set; }
+        public int ProyectoID { get; set; }
 
-        public Servicio(int id, string tipoTrabajo, string fecha, string materiales, double costo, int proyecto_id)
-        {
-            ID = id;
-            TipoTrabajo = tipoTrabajo;
-            Fecha = fecha;
-            Materiales = materiales;
-            Costo = costo;
-            Proyecto_id = proyecto_id;
-        }
+        public Proyecto? Proyecto { get; set; }
+
+        //public Servicio(int id, string tipoTrabajo, string fecha, string materiales, double costo, int proyecto_id)
+        //{
+        //    ID = id;
+        //    TipoTrabajo = tipoTrabajo;
+        //    Fecha = fecha;
+        //    Materiales = materiales;
+        //    Costo = costo;
+        //    Proyecto_id = proyecto_id;
+        //} // 
 
         public override string ToString()
         {
@@ -31,7 +33,7 @@ namespace Paint_Service.API.Models.Entities
                    $"Fecha: {Fecha}\n" +
                    $"Materiales: {Materiales}\n" +
                    $"Costo: {Costo}\n" +
-                   $"Proyecto_ID: {Proyecto_id}";
+                   $"Proyecto_ID: {ProyectoID}";
         }
     }
 }

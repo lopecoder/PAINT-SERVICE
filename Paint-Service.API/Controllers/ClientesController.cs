@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Paint_Service.API.Models; // Importa el namespace donde está la clase Cliente
+using Paint_Service.API.Models.Entities;
 using System.Linq;
-using static Paint_Service.API.Models.Entities.Clientes;
 
 namespace Paint_Service.API.Controllers
 {
