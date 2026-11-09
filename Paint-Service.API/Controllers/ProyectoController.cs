@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Paint_Service.API.Models.Entities;
+using Paint_Service.Domain.Entities;
+using Paint_Service.Domain.Entities.Entities;
 using System.Linq;
 namespace Paint_Service.API.Controllers
 {

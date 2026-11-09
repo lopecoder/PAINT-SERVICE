@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Paint_Service.API.Models.Entities;
+//using Paint_Service.Domain.Entities;
+using Paint_Service.Domain.Entities.Entities;
+//Paint.Service_Domain.Entities
 
 namespace Paint_Service.API.Context
 {
