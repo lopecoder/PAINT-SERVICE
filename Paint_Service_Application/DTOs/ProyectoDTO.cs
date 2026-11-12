@@ -1,4 +1,4 @@
-﻿namespace Paint_Service.API.DTOs
+﻿namespace Paint_Service_Application.DTOs
 {
     public class ProyectoDTO
     {
