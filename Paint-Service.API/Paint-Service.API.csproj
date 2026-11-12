@@ -29,6 +29,7 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\Paint_Service.Domain\Paint_Service.Domain.csproj" />
 	  <ProjectReference Include="..\Paint_Service.Infrastructure\Paint_Service.Infrastructure.csproj" />
+	  <ProjectReference Include="..\Paint_Service_Application\Paint_Service_Application.csproj" />
 	</ItemGroup>
 
 </Project>
